@@ -1,9 +1,20 @@
 [package]
 name = "whatthecommitcli"
 version = "0.1.0"
+authors = ["Alvin Yip <keongalvin@gmail.com>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/keongalvin/whatthecommit-cli"
+repository = "https://github.com/keongalvin/whatthecommit-cli"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
+
 
 [dependencies]
 rand = "0.9.0"
-anyhow = "1.0.95"
+anyhow = "1.0.100"
+log = "0.4.28"
+env_logger = "0.11.8"
+clap = { version = "4.5.50", features = ["derive"] }
