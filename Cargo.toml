@@ -1,15 +1,15 @@
 [package]
 name = "whatthecommitcli"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Alvin Yip <keongalvin@gmail.com>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
-description = "A tool to search files"
+description = "Generate commit messages from your terminal, inspired by whatthecommit.com"
 readme = "README.md"
 homepage = "https://github.com/keongalvin/whatthecommit-cli"
 repository = "https://github.com/keongalvin/whatthecommit-cli"
-keywords = ["cli", "search", "demo"]
-categories = ["command-line-utilities"]
+keywords = ["cli", "git", "commit", "generator"]
+categories = ["command-line-utilities", "development-tools"]
 
 
 [dependencies]
