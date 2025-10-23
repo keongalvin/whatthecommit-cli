@@ -40,9 +40,9 @@ Options:
 
 The commit message templates support three placeholders for name substitution:
 
-- XNAMEX - Replaces with the name as-is (e.g., "John")
-- XLOWERNAMEX - Replaces with lowercase version (e.g., "john")
-- XUPPERNAMEX - Replaces with uppercase version (e.g., "JOHN")
+- `XNAMEX` - Replaces with the name as-is (e.g., "John")
+- `XLOWERNAMEX` - Replaces with lowercase version (e.g., "john")
+- `XUPPERNAMEX` - Replaces with uppercase version (e.g., "JOHN")
 
 ## License
 
